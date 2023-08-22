@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+django_projects/venv/
+.env
+db.sqlite3
+datadump.json
