@@ -3,7 +3,6 @@ import uuid  # Required for unique book instances.
 from django.urls import reverse  # Used to generate URLs by reversing the URL patterns.
 from django.utils.translation import gettext as _
 
-
 # Create your models here.
 class Genre(models.Model):
     """Model representing a book genre."""

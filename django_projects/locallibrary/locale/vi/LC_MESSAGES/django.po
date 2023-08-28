@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-27 21:07+0700\n"
+"POT-Creation-Date: 2023-08-28 14:28+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,53 +16,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: .\catalog\models.py:10
-msgid "Enter a book genre (e.g.Science Fiction)"
-msgstr ""
 
-#: .\catalog\models.py:21
+#: .\catalog\models.py:9
+msgid "Enter a book genre (e.g.Science Fiction)"
+msgstr "Nhập thể loại (ví dụ: khoa học viễn tưởng)"
+
+#: .\catalog\models.py:20
 msgid "Enter a brief description of the book"
 msgstr "Thêm mô tả của cuốn sách"
 
-#: .\catalog\models.py:23
-msgid "13"
+#: .\catalog\models.py:22
+msgid ""
 "13 Character <a href=\"https://www.isbn-international.org/content/what-isbn"
 "\">ISBN number</a>"
-msgstr "13"
+msgstr ""
+"13 ký tự <a href=\"https://www.isbn-international.org/content/what-isbn"
+"\">ISBN number</a>"
 
-#: .\catalog\models.py:25
+#: .\catalog\models.py:24
 msgid "Select a genre for this book"
 msgstr "Chọn thể loại cho cuốn sách"
 
-#: .\catalog\models.py:45
+#: .\catalog\models.py:44
 msgid "Unique ID for this particular book across whole library"
 msgstr "ID của sách"
 
-#: .\catalog\models.py:49
+#: .\catalog\models.py:48
 msgid "Maintenance"
 msgstr "Bảo trì"
 
-#: .\catalog\models.py:49
+#: .\catalog\models.py:48
 msgid "On loan"
 msgstr "Cho mượn"
 
-#: .\catalog\models.py:49
+#: .\catalog\models.py:48
 msgid "Available"
 msgstr "Có sẵn"
 
-#: .\catalog\models.py:49
+#: .\catalog\models.py:48
 msgid "Reserved"
 msgstr "Đã đặt"
 
-#: .\catalog\models.py:51
+#: .\catalog\models.py:50
 msgid "Book availability"
 msgstr "Sách còn lại"
 
-#: .\catalog\models.py:66
+#: .\catalog\models.py:65
 msgid "Died"
 msgstr "Mất"
 
-#: .\catalog\models.py:73
+#: .\catalog\models.py:72
 msgid "author-detail"
 msgstr "Chi tiết tác giả"
 
@@ -77,6 +80,52 @@ msgstr "Tất cả sách"
 #: .\catalog\templates\base_generic.html:25
 msgid "All authors"
 msgstr "Tất cả tác giả"
+
+#: .\catalog\templates\catalog\book_detail.html:5
+msgid "Title:"
+msgstr "Tựa đề"
+
+#: .\catalog\templates\catalog\book_detail.html:7
+#, fuzzy
+#| msgid "Authors:"
+msgid "Author:"
+msgstr "Tác giả"
+
+#: .\catalog\templates\catalog\book_detail.html:8
+msgid "Summary:"
+msgstr "Tổng kết"
+
+#: .\catalog\templates\catalog\book_detail.html:10
+msgid "Language:"
+msgstr "Ngôn ngữ"
+
+#: .\catalog\templates\catalog\book_detail.html:11
+msgid "Genre:"
+msgstr "Thể loại"
+
+#: .\catalog\templates\catalog\book_detail.html:13
+#, fuzzy
+#| msgid "Copies:"
+msgid "Copies"
+msgstr "Số lượng"
+
+#: .\catalog\templates\catalog\book_detail.html:20
+msgid "Due to be returned:"
+msgstr "Đến hạn trả"
+
+#: .\catalog\templates\catalog\book_detail.html:22
+msgid "Imprint:"
+msgstr "Đóng dấu"
+
+#: .\catalog\templates\catalog\book_list.html:5
+#, fuzzy
+#| msgid "Books:"
+msgid "Book List"
+msgstr "Sách"
+
+#: .\catalog\templates\catalog\book_list.html:15
+msgid "There are no books in the library."
+msgstr "Không còn sách trong thư viện"
 
 #: .\catalog\templates\index.html:8
 msgid "The library has the following record counts:"
