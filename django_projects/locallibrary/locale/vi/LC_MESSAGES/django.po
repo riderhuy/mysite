@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 14:28+0700\n"
+"POT-Creation-Date: 2023-08-28 15:49+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,39 +81,39 @@ msgstr "Tất cả sách"
 msgid "All authors"
 msgstr "Tất cả tác giả"
 
-#: .\catalog\templates\catalog\book_detail.html:5
+#: .\catalog\templates\catalog\book_detail.html:10
 msgid "Title:"
 msgstr "Tựa đề"
 
-#: .\catalog\templates\catalog\book_detail.html:7
+#: .\catalog\templates\catalog\book_detail.html:12
 #, fuzzy
 #| msgid "Authors:"
 msgid "Author:"
 msgstr "Tác giả"
 
-#: .\catalog\templates\catalog\book_detail.html:8
+#: .\catalog\templates\catalog\book_detail.html:13
 msgid "Summary:"
 msgstr "Tổng kết"
 
-#: .\catalog\templates\catalog\book_detail.html:10
+#: .\catalog\templates\catalog\book_detail.html:15
 msgid "Language:"
 msgstr "Ngôn ngữ"
 
-#: .\catalog\templates\catalog\book_detail.html:11
+#: .\catalog\templates\catalog\book_detail.html:16
 msgid "Genre:"
 msgstr "Thể loại"
 
-#: .\catalog\templates\catalog\book_detail.html:13
+#: .\catalog\templates\catalog\book_detail.html:18
 #, fuzzy
 #| msgid "Copies:"
 msgid "Copies"
 msgstr "Số lượng"
 
-#: .\catalog\templates\catalog\book_detail.html:20
+#: .\catalog\templates\catalog\book_detail.html:25
 msgid "Due to be returned:"
 msgstr "Đến hạn trả"
 
-#: .\catalog\templates\catalog\book_detail.html:22
+#: .\catalog\templates\catalog\book_detail.html:27
 msgid "Imprint:"
 msgstr "Đóng dấu"
 
@@ -146,3 +146,11 @@ msgstr "Số lượng còn lại"
 #: .\catalog\templates\index.html:13
 msgid "Authors:"
 msgstr "Tác giả"
+
+#: .\catalog\templates\index.html:16
+msgid "You have visited this page"
+msgstr "Bạn đã truy cập trang"
+
+#: .\catalog\templates\index.html:16
+msgid "time"
+msgstr "lần"
