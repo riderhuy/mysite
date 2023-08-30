@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from catalog.models import Book, Author, BookInstance, Genre
 from django.shortcuts import get_object_or_404
+from django.views import generic
 
 def index(request):
     """View function for home page of site"""
